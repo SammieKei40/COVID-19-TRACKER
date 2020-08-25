@@ -11,6 +11,9 @@ html{
     display: none;
 }
 
+body{
+    height: 100vh;
+}
 
 nav{
     display: flex;
@@ -277,13 +280,16 @@ footer{
         flex-direction: column;
         align-items: flex-start;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 /* Scroll Bar*/
 .country-list::webkit-scrollbar{
     width: 10px;    
 }
-.country-list::webkit-scrollbar-track{
+i.country-list::webkit-scrollbar-track{
     background: #111;
 }
 .country-list::webkit-scrollbar-thumb{
